@@ -1,0 +1,17 @@
+/*=====================================
+= MYANIMELIST GRABBER css
+= by : Close Art (https://www.closeart.xyz)
+= ver : 1.0
+=====================================*/
+.cls_generator{padding:18px 20px}
+.cls_generator .thead{font-size:16px;font-weight:500;line-height:1.6;margin-bottom:5px}
+.cls_generator .cls_inputarea{display:flex}
+.cls_inputarea .areainput input{outline:none;background:#FAFAFA;border:1px solid #DDD;padding:8px 12px;border-radius:3px;color:#333333;font-family:'Roboto',sans-serif;width:100%;box-sizing:border-box}
+.cls_inputarea .generate-me{outline:none;border:none;margin-left:8px;border-radius:3px;color:#FFFFFF;font-family:'Roboto';padding:8px 12px;background:#0C70DE;cursor:pointer}
+.cls_inputarea .generate-me:hover{background:#333333;color:#FFFFFF}
+.cls_Result{display:flex;flex-wrap:wrap;margin-top:25px;padding:0 20px}
+.cls_Result>div{flex:100%;-webkit-flex:100%;-ms-flex:100%;max-width:100%;padding:3px 10px;box-sizing:border-box;overflow:hidden}
+.cls_Result h3{font-size:15px;line-height:1.6;font-weight:500;margin-bottom:5px;width:15%;float:left}
+.cls_Result input{box-sizing:border-box;padding:8px 12px;display:block;width:82%;outline:none;border:none;background:#FAFAFA;border-bottom:1px solid #DDD;border-radius:3px;color:#333;font-family:'Roboto',sans-serif}
+.cls_Result textarea{box-sizing:border-box;padding:8px 12px;display:block;width:100%;outline:none;border:none;background:#F1F1F1;border-radius:3px;color:#333;font-family:'Roboto', sans-serif}
+@media screen and (max-width:640px){.cls_Result>div{flex:100%;-webkit-flex:100%;-ms-flex:100%;max-width:100%}}
